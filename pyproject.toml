@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "learning"
+version = "0.1.0"
+description = "Notes with corresponding example code when learning are provided here."
+authors = ["Kyle Chen <luckykk273@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
